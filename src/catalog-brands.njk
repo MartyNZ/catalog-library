@@ -1,0 +1,42 @@
+---js
+{
+  pagination: {
+    data: "catalogLibrary",
+    size: 1,
+    alias: "sources",
+    before: function(data) {
+      const sourcecatalogs = [];
+
+      for (const category of data) {
+        for (const source of category.brands) {
+          sourcecatalogs.push(source);
+        }
+
+      }
+
+      return sourcecatalogs;
+    }
+  },
+  layout: "base.njk",
+  permalink: "/catalogs/{{ sources.brandName | slug }}/",
+  eleventyComputed: {
+    title: "{{ sources.brandName | safe }}",
+    coverImage: "{{ sources.coverImage }}",
+
+  }
+
+}
+---
+
+
+<h2>{{ category }}</h2>
+<img src="{{ sources.coverImage | url }}" alt="">
+{# <ul class="grid">
+  {% for catalog in sources.catalogs %}
+    <li class="card card-excerpt background-light">
+
+      <h2><a href="/{{ catalog.url | slug }}/{{ catalog.title | slug }}/">{{ catalog.title }}</a></h2>
+<img src="{{ catalog.catalogCover | url }}" alt="{{ catalog.title }}"/>
+    </li>
+
+</ul> #}

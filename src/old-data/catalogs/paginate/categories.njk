@@ -1,0 +1,16 @@
+---
+pagination:
+  data: tyres
+  size: 1
+  alias: categories
+permalink: "/{{ categories.category | slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ categories.category }}"
+---
+
+<ul class="grid">
+  {% for brand in categories.brands %}
+      {% include "libraryCard.njk" %}
+  {% endfor %}
+</ul>

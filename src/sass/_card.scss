@@ -60,3 +60,62 @@
     text-align: center;
   }
 }
+.card-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(42ch, 1fr));
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.card-gallery a {
+  text-decoration: none;
+}
+
+.card-gallery figure {
+  --gallery-height: 15rem;
+  --gallery-aspect-ratio: 16/9;
+
+  /* reset figure default margin */
+  margin: 0;
+  height: var(--gallery-height);
+  background-color: hsl(200, 85%, 2%);
+  display: grid;
+  grid-template-areas: "card";
+  place-items: end;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.card-gallery figure > * {
+  grid-area: card;
+}
+
+.card-gallery figcaption {
+  transform: translateY(100%);
+  transition: transform 400ms ease-in;
+
+  /* Visual styles for the caption */
+  padding: 0.25em 0.5em;
+  border-radius: 4px 0 0 0;
+  background-color: hsl(0 0% 100% / 87%);
+}
+
+.card-gallery figure:hover figcaption {
+  transform: translateY(0);
+}
+
+.card-gallery img {
+  display: block;
+  width:100%;
+  object-fit:cover;
+  height: var(--gallery-height)
+}
+@supports (aspect-ratio: 1) {
+  .card-gallery figure,
+  .card-gallery img {
+    aspect-ratio: var(--gallery-aspect-ratio);
+    height: auto;
+  }
+}

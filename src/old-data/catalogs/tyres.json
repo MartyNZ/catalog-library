@@ -1,0 +1,177 @@
+{
+  "category": "Tyres",
+  "brands": [
+    {
+      "brandName": "Accelera",
+      "id": "001",
+      "active": false,
+      "coverImage": "https://www.kats.co.nz/Portals/0/Catalogues-web/Accellera/accellera.jpg",
+      "catalogs": []
+    },
+    {
+      "brandName": "Achilles",
+      "id": "002",
+      "active": false,
+      "coverImage": "https://www.kats.co.nz/Portals/0/Catalogues-web/Achilles/achilles.jpg",
+      "catalogs": []
+    },
+    {
+      "brandName": "BF Goodrich",
+      "id": "003",
+      "active": true,
+      "coverImage": "",
+      "catalogs": [
+        {
+          "title": "BF Goodrich All Terrain Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/All_Terrain/mobile/index.html"
+        },
+        {
+          "title": "BF Goodrich Mud Terrain Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/Mud_Terrain/index.html"
+        }
+      ]
+    },
+    {
+      "brandName": "BG Wheels",
+      "id": "004",
+      "active": false,
+      "coverImage": "",
+      "catalogs": [
+        {
+          "title": "BF Goodrich All Terrain Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/All_Terrain/mobile/index.html"
+        },
+        {
+          "title": "BF Goodrich Mud Terrain Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/Mud_Terrain/index.html"
+        }
+      ]
+    },
+    {
+      "brandName": "Cooper",
+      "id": "005",
+      "active": true,
+      "coverImage": "",
+      "catalogs": [
+        {
+          "title": "Cooper Car and SUV Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Coopers/4WD/current/mobile/index.html"
+        },
+        {
+          "title": "Cooper 4WD Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/All_Terrain/mobile/index.html"
+        }
+      ]
+    },
+    {
+      "brandName": "Falken",
+      "id": "006",
+      "active": true,
+      "coverImage": "",
+      "catalogs": [
+        {
+          "title": "Falken Tyres",
+          "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Falken/mobile/index.html"
+        }
+      ]
+    },
+    {
+      "brandName": "Federal",
+      "id": "007",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Goodride",
+      "id": "008",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Goodyear & Dunlop",
+      "id": "009",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "GT Radials",
+      "id": "010",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Kuhmo",
+      "id": "011",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Maxxis",
+      "id": "012",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Michelin",
+      "id": "013",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Momo",
+      "id": "014",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Nankang",
+      "id": "015",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Neuton",
+      "id": "016",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Nexen",
+      "id": "017",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Nitto",
+      "id": "018",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Pirelli",
+      "id": "019",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "brandName": "Yokohama",
+      "id": "020",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    }
+  ]
+}

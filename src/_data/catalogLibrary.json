@@ -1,0 +1,278 @@
+[
+  {
+    "category": "Tyres",
+    "brands": [
+      {
+        "brandName": "Accelera",
+        "id": "001",
+        "active": false,
+        "coverImage": "/assets/images/brands/accelera.png",
+        "catalogs": [
+          {
+            "title": "",
+            "url": "",
+            "catalogCover": ""
+          }
+        ]
+      },
+      {
+        "brandName": "Achilles",
+        "id": "002",
+        "active": false,
+        "coverImage": "/assets/images/brands/achilles",
+        "catalogs": []
+      },
+      {
+        "brandName": "BF Goodrich",
+        "id": "003",
+        "active": true,
+        "coverImage": "/assets/images/brands/bfgoodrich.png",
+        "catalogs": [
+          {
+            "title": "BF Goodrich All Terrain Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/All_Terrain/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF Goodrich/All_Terrain/BFG_AllTerrain_cover.jpg"
+          },
+          {
+            "title": "BF Goodrich Mud Terrain Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/Mud_Terrain/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF Goodrich/Mud_Terrain/BFG_MudTerrain_cover.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "Cooper",
+        "id": "005",
+        "active": true,
+        "coverImage": "/assets/images/brands/cooper-tire.png",
+        "catalogs": [
+          {
+            "title": "Cooper Car and SUV Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Coopers/4WD/current/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Coopers/Car-SUV/2020/2017-SUV-Coopers_covers.jpg"
+          },
+          {
+            "title": "Cooper 4WD Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BF%20Goodrich/All_Terrain/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Coopers/4WD/current/2017-4WD-Coopers_cover.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "Falken",
+        "id": "006",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "Falken Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Falken/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Falken/FALKEN-TIRE-cover.jpg7"
+          }
+        ]
+      },
+      {
+        "brandName": "Federal",
+        "id": "007",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "Car - Passenger",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Federal/Passenger/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Federal/Passenger/2234_Federal-Passenger_cover.jpg"
+          },
+          {
+            "title": "4x4 - Van",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Federal/4WD/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Federal/4WD/2234_Federal-4WD_cover.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "Goodride",
+        "id": "008",
+        "active": true,
+        "coverImage": "/assets/images/brands/goodride-logo.jpg",
+        "catalogs": [
+          {
+            "title": "Goodride",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Goodride/current/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Goodride/current/Goodride_cover.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "Goodyear & Dunlop",
+        "id": "009",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "Dunlop Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Goodyear_Dunlop/Dunlop/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Goodyear_Dunlop/Dunlop/Dunlop_Tires.jpg"
+          },
+          {
+            "title": "Goodyear Tyres",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Goodyear_Dunlop/Goodyear/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Goodyear_Dunlop/Goodyear/Goodyear_cover.jpg?ver=2020-03-15-135844-430"
+          }
+        ]
+      },
+      {
+        "brandName": "GT Radials",
+        "id": "010",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Kuhmo",
+        "id": "011",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Maxxis",
+        "id": "012",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Michelin",
+        "id": "013",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Momo",
+        "id": "014",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Nankang",
+        "id": "015",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Neuton",
+        "id": "016",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Nexen",
+        "id": "017",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Nitto",
+        "id": "018",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Pirelli",
+        "id": "019",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      },
+      {
+        "brandName": "Yokohama",
+        "id": "020",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": []
+      }
+    ]
+  },
+  {
+    "category": "Wheels",
+    "brands": [
+      {
+        "brandName": "360 Link",
+        "id": "021",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "2017  - 2018",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/360%20Link/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/360 Link/360-Link-Cover.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "BG Wheels",
+        "id": "022",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "Edition 23",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/BG%20Wheels/current/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/BG Wheels/BG_Brochure_edition18 1.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "DTM",
+        "id": "023",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "DTM Wheels",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/DTM/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/DTM/DTM-CAT-2K16_cover.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "Dynamic Wheel Co.",
+        "id": "024",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "Vol III",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/Dynamic%20Wheel%20Co/mobile/index.html",
+            "catalogCover": "https://www.kats.co.nz/Portals/0/Catalogues-web/Dynamic Wheel Co/files/2020-10_Dynamic-Wheels-Brochure-07.jpg"
+          }
+        ]
+      },
+      {
+        "brandName": "YHI",
+        "id": "025",
+        "active": true,
+        "coverImage": "/assets/images/brands/",
+        "catalogs": [
+          {
+            "title": "Wheel Range",
+            "url": "https://www.kats.co.nz/Portals/0/Catalogues-web/YHI/current/mobile/index.html",
+            "catalogCover": ""
+          }
+        ]
+      },
+      {
+        "brandName": "ANZ Wheels",
+        "active": false,
+        "coverImage": "/assets/images/brands/https://www.kats.co.nz/Portals/0/Catalogues-web/ANZ Wheels/Hostile_cover.jpg",
+        "catalogs": []
+      }
+    ]
+  }
+]

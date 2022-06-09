@@ -1,0 +1,31 @@
+---
+pagination:
+  data: catalogLibrary
+  size: 1
+  alias: library
+permalink: "/catalogs/{{ library.category | slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ library.category }}"
+---
+
+{% set brands = library.brands %}
+
+<ul class="card-gallery" role="list">
+  {% for brand in brands %}
+    {% if brand.active %}
+      <li>
+        <a href="/catalogs/{{ brand.brandName | slug }}">{{ brand.brandName }}</a>
+        <img src="{{ brand.coverImage | url }}" alt="{{ brand.brandName }}" width="150px">
+        <ul>
+        {% for catalog in brand.catalogs %}
+        <li>
+            <a href="{{ catalog.url | url }}" target="_blank">{{ catalog.title }}</a>
+        </li>
+        {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{# {{ library.category | slug }}/ #}

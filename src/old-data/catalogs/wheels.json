@@ -1,0 +1,52 @@
+{
+  "category": "Wheels",
+  "brands": [
+    {
+      "name": "360 Link",
+      "slug": "360-link",
+      "id": "021",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "name": "BG Wheels",
+      "slug": "bg-wheels",
+      "id": "022",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "name": "DTM",
+      "slug": "dtm",
+      "id": "023",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "name": "Dynamic Wheel Co.",
+      "slug": "dynamic-wheel-co",
+      "id": "024",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "name": "YHI",
+      "slug": "yhi",
+      "id": "025",
+      "active": true,
+      "coverImage": "",
+      "catalogs": []
+    },
+    {
+      "name": "ANZ Wheels",
+      "id": "026",
+      "active": true,
+      "coverImage": "https://www.kats.co.nz/Portals/0/Catalogues-web/ANZ Wheels/Hostile_cover.jpg",
+      "catalogs": []
+    }
+  ]
+}

@@ -48,6 +48,13 @@ module.exports = function (eleventyConfig) {
     return content != undefined ? content.replace(regex, "&nbsp;") : content;
   });
 
+  // Don't process folders with static assets e.g. images
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/assets/");
+  eleventyConfig.addPassthroughCopy("src/admin/");
+  eleventyConfig.addPassthroughCopy("src/manifest.json");
+  eleventyConfig.addPassthroughCopy("src/service-worker.js");
+
   return {
     dir: {
       input: "src",

@@ -1,0 +1,39 @@
+---js
+{
+  pagination: {
+    data: "tyres",
+    size: 1,
+    alias: "brands",
+    before: function(data) {
+      const brandItems = [];
+
+      for (const category of data) {
+        for (const brand of category.items) {
+          brandItems.push(brand);
+        }
+      }
+
+      return brandItems;
+    }
+  },
+  layout: "base.njk",
+  permalink: "brands/{{ brands.feedTitle | slug }}/",
+  eleventyComputed: {
+    title: "{{ brands.feedTitle }}",
+    siteUrl: "{{ brands.siteUrl }}",
+    category: "{{ brands.category }}"
+  }
+}
+---
+<ul class="grid">
+  {% for item in brands.items %}
+    <li class="card card-excerpt background-light">
+      {% include "postDate.njk" %}
+      <h2><a href="/{{ item.feedTitle | slug }}/{{ item.title | slug }}/">{{ item.title }}</a></h2>
+      <p>{{ item.excerpt | safe }}</p>
+      <footer class="background-primary">
+        <a href="{{ item.link }}">View <span class="inclusively-hidden">{{ item.title }}</span> on {{ item.siteUrl | domain }}</a>
+      </footer>
+    </li>
+  {% endfor %}
+</ul>

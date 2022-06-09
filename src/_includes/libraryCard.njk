@@ -1,0 +1,31 @@
+{# <li class="card background-light">
+  {% set brandSlug %}{{ brand.brandName | slug }}{% endset %}
+
+  <header>
+    {% newCount collections.items, brand.brandName, brandSlug %}
+    <h3 id="{{ brandSlug }}"><a href="/{{ brandSlug }}/">{{ brand.brandName }}</a></h3>
+  </header>
+  <ul role="list">
+  {% for catalog in brand.catalogs | limit(3) %}
+    <li>
+      {% include "postDate.njk" %}
+      <a href="/{{ catalog.brandName | slug }}/{{ catalog.title | slug }}/">{{ catalog.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  <footer class="background-primary">
+    <small><a href="/{{ brand.brandName | slug }}/">View all from {{ brand.siteUrl | domain }}</a></small>
+  </footer>
+</li> #}
+
+
+  {% if brand.active %}
+    <a href="/catalogs/{{ brand.name | slugify }}">
+      <li class="card">
+      <figure>
+        <img {% if brand.coverImage %}src="{{ brand.coverImage | url }}"{% else %} src="/assets/images/tyre-default.jpg"{% endif %} alt="View catalogs for {{ brand.name }}"/>
+        <figcaption>{{ brand.name }}</figcaption>
+      </figure>
+    </li>
+    </a>
+    {% endif %}
